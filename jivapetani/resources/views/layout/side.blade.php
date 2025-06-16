@@ -26,7 +26,7 @@
         <li class="nav-item">
           <a href="{{ route('home') }}" class="nav-link">
             <i class="nav-icon bi bi-house-door-fill"></i>
-            <p>Dashboard</p>
+            <p>Home</p>
           </a>
         </li>
 
@@ -89,13 +89,20 @@
 
         @elseif($level === 'user')
           {{-- User Menu --}}
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a href="{{ route('home') }}" class="nav-link">
               <i class="nav-icon bi bi-info-circle"></i>
               <p>Informasi</p>
             </a>
-          </li>
+          </li> --}}
         @endif
+
+        <li class="nav-item">
+          <a href="{{ route('faq') }}" class="nav-link">
+            <i class="nav-icon bi bi-house-door-fill"></i>
+            <p>FAQ</p>
+          </a>
+        </li>
 
       </ul>
     </nav>

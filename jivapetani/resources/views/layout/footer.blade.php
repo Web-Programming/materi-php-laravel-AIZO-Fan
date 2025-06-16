@@ -1,5 +1,5 @@
-<footer class="app-footer bg-danger" style="color: #ffffff; padding: 1rem 0;">
+<footer class="app-footer " style="color: #ffffff; background-color: #2e8b57; padding: 1rem 0;">
   <div class="container text-center">
-    <strong>&copy; {{ date('Y') }} Muhammad Irfan</strong> - Universitas Multi Data Palembang.
+    <strong>&copy; {{ date('Y') }} Jiva Petani</strong> - Jiva Pertanian Agriculture Indonesia
   </div>
 </footer>

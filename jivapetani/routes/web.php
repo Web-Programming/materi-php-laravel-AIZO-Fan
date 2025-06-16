@@ -82,3 +82,5 @@ Route::middleware([CekLogin::class . ':user'])
 
 // --------- DEFAULT HOME ---------
 Route::get('/home', fn () => view('home'))->name('home');
+
+Route::get('/faq', fn () => view('faq'))->name('faq');
